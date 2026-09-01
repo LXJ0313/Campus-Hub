@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="100%" stop-color="#0d47a1"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4fc3f7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4fc3f7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <circle cx="1050" cy="120" r="200" fill="#4fc3f7" opacity="0.08"/>
+  <circle cx="150" cy="520" r="150" fill="#4fc3f7" opacity="0.06"/>
+  <g transform="translate(880,150)">
+    <rect x="0" y="0" width="220" height="150" rx="12" fill="#ffffff" opacity="0.12"/>
+    <rect x="20" y="30" width="180" height="8" rx="4" fill="#ffffff" opacity="0.5"/>
+    <rect x="20" y="50" width="140" height="8" rx="4" fill="#ffffff" opacity="0.35"/>
+    <rect x="20" y="70" width="160" height="8" rx="4" fill="#ffffff" opacity="0.25"/>
+    <rect x="20" y="90" width="100" height="8" rx="4" fill="#ffffff" opacity="0.2"/>
+    <circle cx="180" cy="125" r="14" fill="#4fc3f7" opacity="0.8"/>
+    <path d="M 172 125 l 5 5 l 10 -12" stroke="#1a237e" stroke-width="3" fill="none"/>
+  </g>
+  <g transform="translate(80,220)">
+    <text x="0" y="60" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="56" font-weight="bold" fill="#ffffff">AI 大模型前沿讲座</text>
+    <text x="0" y="130" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" fill="#90caf9">从理论到产业实践</text>
+    <rect x="0" y="170" width="180" height="44" rx="22" fill="#ffffff" opacity="0.15"/>
+    <text x="90" y="199" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" fill="#e3f2fd" text-anchor="middle">Lecture</text>
+  </g>
+  <rect x="0" y="580" width="1200" height="20" fill="url(#glow)" opacity="0.3"/>
+</svg>

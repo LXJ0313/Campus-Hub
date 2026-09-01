@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a148c"/>
+      <stop offset="100%" stop-color="#283593"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fff8e1"/>
+      <stop offset="100%" stop-color="#ffe082"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <circle cx="1020" cy="130" r="70" fill="url(#moon)"/>
+  <circle cx="1000" cy="115" r="10" fill="#e6ce8f" opacity="0.5"/>
+  <circle cx="1040" cy="150" r="7" fill="#e6ce8f" opacity="0.4"/>
+  <circle cx="1025" cy="100" r="5" fill="#e6ce8f" opacity="0.4"/>
+  <circle cx="150" cy="520" r="150" fill="#ce93d8" opacity="0.06"/>
+  <g transform="translate(830,300)" opacity="0.7">
+    <rect x="-12" y="0" width="26" height="80" rx="4" fill="#ffd54f" opacity="0.8"/>
+    <ellipse cx="1" cy="0" rx="20" ry="14" fill="#ffca28"/>
+    <ellipse cx="-26" cy="8" rx="12" ry="20" fill="#ffca28" opacity="0.7"/>
+    <ellipse cx="28" cy="8" rx="12" ry="20" fill="#ffca28" opacity="0.7"/>
+    <path d="M -8 -12 q 8 -10 16 -4" stroke="#8d6e63" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(760,210)" opacity="0.5">
+    <rect x="-10" y="0" width="22" height="70" rx="4" fill="#ffd54f" opacity="0.8"/>
+    <ellipse cx="1" cy="0" rx="17" ry="12" fill="#ffca28"/>
+  </g>
+  <g transform="translate(80,220)">
+    <text x="0" y="60" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="56" font-weight="bold" fill="#ffffff">中秋月圆 · 诗词朗诵会</text>
+    <text x="0" y="130" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" fill="#ce93d8">明月几时有 把酒问青天</text>
+    <rect x="0" y="170" width="140" height="44" rx="22" fill="#ffffff" opacity="0.15"/>
+    <text x="70" y="199" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" fill="#f3e5f5" text-anchor="middle">Culture</text>
+  </g>
+</svg>

@@ -1,0 +1,185 @@
+1、PRD里的与搜索/分类相关的部分：
+
+①User Flow2 搜索目标活动
+
+打开首页搜索页→输入关键词→AI理解搜索意图→展示匹配活动→进入详情→报名
+②
+信息架构（IA）
+/ (Root)
+
+│
+├── /home
+│       首页（活动流）
+│       ├── Quick Categories（快速分类筛选）
+│       └── Activity Cards
+│
+├── /search
+│       搜索页
+│       ├── 关键词搜索
+│       ├── AI 自然语言搜索
+│       ├── Category Filter（分类筛选）
+│       └── Search Results
+│
+├── /activity/:id
+│       活动详情页
+│       ├── AI Activity Summary
+│       ├── Activity Information
+│       ├── Favorite
+│       └── Registration
+│
+└── /me
+        我的页面（个人活动管理）
+        ├── User Information
+        ├── 我的收藏
+        └── 我的报名
+
+2、Interaction Spec里与搜索/分类相关的部分：
+①# 2. Global Interaction Rules
+
+
+## 2.1 Navigation
+
+Global navigation includes:
+
+- Home
+- Search
+- My Page
+
+
+
+Navigation behavior:
+
+Click navigation item:
+
+→ Navigate to corresponding page
+
+②#User flow:
+# #Flow 2: Search Activity
+
+
+### User Goal
+
+User wants to find specific campus activities quickly.
+
+
+###Flow
+
+Home
+
+↓
+
+Search
+
+↓
+
+Search Result
+
+↓
+
+Activity Detail Template
+
+
+---
+
+###Step 1: Home
+
+
+User Action:
+
+Click search box
+
+
+System Response:
+
+Navigate to Search page.
+
+
+---
+
+### Step 2: Search
+
+
+User Action:
+
+Input keyword or natural language query.
+
+
+Examples:
+
+"AI讲座"
+
+"本周有哪些AI活动？"
+
+
+System Response:
+
+Return relevant activity results.
+
+
+Search result should:
+
+- Match user intent
+- Prioritize relevant activities
+- Avoid unrelated activities
+
+
+---
+
+### Step 3: Search Result
+
+
+Display:
+
+Activity Cards
+
+
+Each card includes:
+
+- Title
+- Category
+- Time
+- Location
+- Organizer
+
+
+User Action:
+
+Click Demo Activity Card
+
+
+System Response:
+
+Navigate to Activity Detail Template
+
+③## AI Search Interaction
+
+
+AI capability:
+
+Natural language understanding.
+
+
+Example:
+
+Input:
+
+"适合研究生参加的AI活动"
+
+
+System:
+
+Understand:
+
+Category = AI
+
+Target User = Graduate Student
+
+
+Return:
+
+Relevant activities.
+
+
+AI does not act as chatbot.
+
+
