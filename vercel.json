@@ -9,7 +9,8 @@
       "root": "backend/",
       "framework": "express",
       "installCommand": "npm install",
-      "entrypoint": "src/index.ts"
+      "buildCommand": "npx -y esbuild@0.24.2 src/index.ts --bundle --platform=node --format=cjs --outfile=dist/index.js --external:pg-native",
+      "entrypoint": "dist/index.js"
     }
   },
   "rewrites": [
