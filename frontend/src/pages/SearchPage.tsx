@@ -24,7 +24,7 @@ export default function SearchPage() {
   const aiSuggestions = [
     '本周有哪些AI讲座？',
     '适合研究生参加的AI活动',
-    '近期的职业发展讲座',
+    '有哪些职业规划活动？',
   ];
 
   // ── Core data fetching ──────────────────────────────────────────────────
