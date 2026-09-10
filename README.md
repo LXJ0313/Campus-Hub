@@ -5,8 +5,9 @@
 Campus Hub 提供统一的校园活动入口，通过活动聚合、分类筛选、自然语言搜索、收藏与报名等功能，帮助用户更高效地发现和参与校园活动。
 本项目完成了从需求分析、产品设计、原型验证、Vibe Coding、功能测试到线上部署的 0→1 开发闭环。
 ## 在线体验
-**Demo:** https://campus-hub-teal.vercel.app
+**Demo:** https://lxjabc.xyz
 无需登录，使用 Mock User 即可体验。
+Vercel Deployment: https://campus-hub-teal.vercel.app
 ## 核心功能
 - **活动发现**：首页浏览、分类筛选、自然语言搜索
 - **AI Search**：使用自然语言描述活动需求并返回匹配结果
